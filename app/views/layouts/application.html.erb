@@ -42,6 +42,10 @@
     <div class= "container">
       <br/>
 
+    <% if alert %>
+    <%= alert %>
+    <% end %>
+
     <% if notice %>
       <%= render 'layouts/alerts' %>
     <% end %>
